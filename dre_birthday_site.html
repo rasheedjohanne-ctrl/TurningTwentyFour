@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 24th Birthday, My Love</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:wght@300;400&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4ecdf;
+      color: #3b2f2f;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      background-color: #d9c1a7;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      padding: 2rem 1rem;
+    }
+
+    .sidebar h2 {
+      font-family: 'Dancing Script', cursive;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: #3b2f2f;
+      margin: 0.8rem 0;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #fff;
+    }
+
+    /* Content area */
+    .content {
+      flex: 1;
+      overflow-y: auto;
+      padding: 3rem;
+      background-color: #f9f4eb;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    section {
+      max-width: 750px;
+      background: #fffaf3;
+      border-radius: 10px;
+      padding: 2rem 3rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+
+    h1, h2 {
+      font-family: 'Dancing Script', cursive;
+      color: #4a3b2d;
+      text-align: center;
+    }
+
+    p {
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .download {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    button {
+      background-color: #d5bfa3;
+      color: #3b2f2f;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #c6ab8f;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>For Dre</h2>
+    <a href="#home">Home</a>
+    <a href="#message">My Message</a>
+    <a href="#song">Our Song</a>
+    <a href="#vow">The Vow</a>
+  </div>
+
+  <div class="content">
+    <section id="home">
+      <h1>Happy 24th Birthday, my love — my heart has always known its way to you.</h1>
+    </section>
+
+    <section id="message">
+      <h2>My Message</h2>
+      <p>
+        I have loved you through the seasons of ruin and bloom,<br>
+        through the silences that follow thunder,<br>
+        through the long nights when your name was the only word that would still come to me whole.<br><br>
+
+        We were not born for gentle love.<br>
+        Ours was carved from ache and wonder—<br>
+        a flame that burned the hands that fed it,<br>
+        but glowed so fiercely the heavens leaned to see.<br><br>
+
+        I have known joy that made the world tremble,<br>
+        and grief that hollowed out my bones,<br>
+        yet in the hollow, your voice remains—<br>
+        a faint, eternal echo calling me home.<br><br>
+
+        There were days the world forgot us,<br>
+        when love felt like a prayer unanswered,<br>
+        when every road led to absence.<br>
+        But I kept walking, barefoot and burning,<br>
+        because somewhere your heart was still beating the rhythm that once saved mine.<br><br>
+
+        If this love is pain, then let it ache.<br>
+        If this love is loss, then let it haunt.<br>
+        For I would rather carry the weight of you forever<br>
+        than live a single day untouched by your fire.<br><br>
+
+        Even if the stars forget our names,<br>
+        even if the oceans unmake their waves,<br>
+        I will find you in the dark.<br>
+        Not as a dream, not as memory—<br>
+        but as the pulse between worlds,<br>
+        the breath that moves before dawn.<br><br>
+
+        When death comes, gentle or cruel,<br>
+        I will not ask to rest.<br>
+        I will ask to find you.<br><br>
+
+        And if there is no heaven,<br>
+        I will build one from the dust of your name,<br>
+        and fill it with every moment we could not keep.<br><br>
+
+        Because love— the kind that ruins, the kind that saves— does not die.<br>
+        It endures.<br>
+        It burns quietly beneath the ashes,<br>
+        waiting for the soul brave enough to remember.<br><br>
+
+        And I remember.<br>
+        Always, I remember.<br><br>
+
+        Happy 24th Birthday, my love.
+      </p>
+    </section>
+
+    <section id="song">
+      <h2>Our Song</h2>
+      <p style="text-align:center;">🎵 <a href="https://www.youtube.com/watch?v=RB-RcX5DS5A" target="_blank">The Scientist — Coldplay</a></p>
+    </section>
+
+    <section id="vow">
+      <h2>The Vow</h2>
+      <p style="text-align:center; font-style:italic;">
+        Let’s keep breaking and rebuilding, if that’s what it takes for love to live.<br>
+        For even if the pieces change, my heart will always find its way back to you.<br><br>
+        I love you, Dre.<br><br>
+        <strong>Yours forever,<br>Sheed.</strong>
+      </p>
+    </section>
+
+    <div class="download">
+      <button onclick="downloadPage()">⬇️ Download this page</button>
+    </div>
+  </div>
+
+  <script>
+    function downloadPage() {
+      const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'HappyBirthdayForDre.html';
+      link.click();
+    }
+  </script>
+</body>
+</html>
